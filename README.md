@@ -4,6 +4,7 @@ Since it was my first encounter with GitLab, I found it quite challenging to get
 # 3D design Journey
 I chose to use Onshape for my design software because it was convenient and user-friendly. Since it was my first time using the software, I watched a YouTube tutorial to guide me through the project. I decided to start with a simple design and opted to make a mug. Following the steps from the tutorial made the design process quite manageable.
 ## My Final Project
+
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=19Ovqs4X35AnBzdK3kjUyVP7xTlc5yEBv&sz=w400" alt="Profile Photo">
 
 # Process:
@@ -11,8 +12,11 @@ First I searched for the design idea by watching a YouTube tutorial. I also brai
 
 Here the options i had for the design.
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=18NoUjISckfnLD9Hlr3kKRNbTIlE4I6ov&sz=w400" alt="Profile Photo">
+
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=1Jjneh8hjlUrBgD_kXB2huy4rdphNm2U7&sz=w400" alt="Profile Photo">
+
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=1HE7Z1Jhl-OJBhK3me100pmO7FCz99nDv&sz=w400" alt="Profile Photo">
+
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=1BAbgsqIrSykzWSMskCELle2BLHZ2QVCo&sz=w400" alt="Profile Photo">
 
 I decided to go for this design.
@@ -32,4 +36,5 @@ This is the actual process where I started to make the product by watching throu
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=1wZU0Zbsv2La03J9zIish2C7oYL40qKkD&sz=w400" alt="Profile Photo">
 
 This is the final product of my journey.
+
 <img class="profile-photo" src="https://drive.google.com/thumbnail?id=1pX3CLqP2Kqa6FBzPTYxCCEN-4rp5N9ad&sz=w400" alt="Profile Photo">
