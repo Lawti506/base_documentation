@@ -1,0 +1,162 @@
+# ============================================================
+# MkDocs Configuration — Student Documentation Template
+# ============================================================
+# To get started:
+#   1. pip install mkdocs-material
+#   2. mkdocs serve
+#   3. Open http://127.0.0.1:8000
+# ============================================================
+
+site_name: My Documentation Site          # ← Change to your name / project
+site_url: https://yourusername.github.io/yourrepo/  # ← Change: https://<username>.github.io/<repo>/
+site_description: A personal documentation site for showcasing work, learning, and projects.
+site_author: Your Name                    # ← Change to your name
+
+repo_url: https://github.com/yourusername/yourrepo  # ← Change to your GitHub repo URL
+repo_name: yourusername/yourrepo                    # ← Change to username/reponame
+
+# ── Theme ────────────────────────────────────────────────────
+theme:
+  name: material
+  custom_dir: docs/overrides              # for future template overrides
+  language: en
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Inter
+    code: Roboto Mono
+
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+
+  features:
+    - navigation.tabs               # top-level tabs
+    - navigation.tabs.sticky        # tabs stay visible on scroll
+    - navigation.sections           # sections in sidebar
+    - navigation.expand             # auto-expand sidebar sections
+    - navigation.top                # back-to-top button
+    - navigation.instant            # instant page loads (SPA-style)
+    - navigation.instant.progress   # loading progress indicator
+    - search.suggest                # search suggestions
+    - search.highlight              # highlight search terms
+    - content.code.copy             # copy button on code blocks
+    - content.tabs.link             # linked content tabs
+    - toc.follow                    # TOC follows scroll
+
+# ── Plugins ──────────────────────────────────────────────────
+plugins:
+  - search
+  - tags
+
+# ── Markdown Extensions ─────────────────────────────────────
+markdown_extensions:
+  # Admonitions (note, warning, tip boxes)
+  - admonition
+  - pymdownx.details
+
+  # Code highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  # Tabbed content blocks
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # Task lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  # Emoji support
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # Tables, attributes, and HTML-in-Markdown
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+
+  # Table of Contents
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+  # Keys & keyboard shortcuts rendering
+  - pymdownx.keys
+
+  # Footnotes
+  - footnotes
+
+  # Critic markup (track changes)
+  - pymdownx.critic
+
+  # Caret, Mark, Tilde (ins/del/highlight)
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+# ── Custom CSS ───────────────────────────────────────────────
+extra_css:
+  - stylesheets/extra.css
+
+# ── Extra (social links, etc.) ───────────────────────────────
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername      # ← Change
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourusername  # ← Change
+      name: LinkedIn
+  generator: false                                 # hide "Made with MkDocs"
+
+# ── Navigation ───────────────────────────────────────────────
+nav:
+  - Home:
+      - Welcome: index.md
+
+  - About Me:
+      - Introduction: about/index.md
+
+  - Documentation:
+      - Overview: documentation/index.md
+      - "🚀 Deploy to GitHub Pages": documentation/github-deployment.md
+      - "Expectation and Roles" : documentation/expectation.md
+      - Getting Started Guide: documentation/getting-started.md
+      - Basic Simulation TinkerCad : documentation/basic_simulation.md
+      - Softwares : documentation/installation.md 
+      - Blinking LED : documentation/led_blink.md
+      - "📝 Blank Template": documentation/template.md
+      - "3D Designing": documentation/3d_design.md
+
+  - Projects:
+      - Overview: projects/index.md
+      - "📋 Project Template": projects/project-template.md
