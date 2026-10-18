@@ -1,11 +1,78 @@
-# 3D Designing
+# **3-D Designing**
 
-this is a demmo
+3D designing is the creation of digital three-dimensional models that define the shape, materials, and appearance of objects or environments for visualization, simulation, manufacturing, or interactive use.
 
-## Design software
 
-loren ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus nec ante placerat placerat. Nullam nec metus nec ante placerat placerat. Nullam nec metus nec ante placerat placerat.
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=1x9Fvy_jqObZ2wntPB3SueOVeUCS03R02" alt="Profile Photo">>*source:google*
 
-## Real life projects
 
-loren ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus nec ante placerat placerat. Nullam nec metus nec ante placerat placerat. Nullam nec metus nec ante placerat placerat.
+# softwares available for 3-d design:
+* Onshape
+* Tinkercad
+* Blender
+* Fusion 360
+
+## CAD (Computer-Aided Design)
+CAD (Computer-Aided Design) is the use of computer software to create, modify, analyze, and optimize precise technical drawings and 3D models of parts, assemblies, and systems for engineering, manufacturing, architecture, and construction.
+
+
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=1voQjZ3XlWymevOBUo_0ECqDrr8M3Ff_7" alt="Profile Photo">>*source:google*
+
+
+### Importance:
+* CAD (Computer-Aided Design) streamlines precise creation and modification of technical drawings and 3D models for engineering, manufacturing, architecture, and construction.
+* It reduces errors and development time by enabling easy revisions, simulations, and automated documentation.
+* CAD improves communication with standardized, dimensioned files usable for CAM, 3D printing, and analysis.
+* Supports optimization (weight, strength, cost), reuse via parametric models, and version control to boost productivity.
+* For students: provides hands-on industry tools, makes geometry and assembly concepts visual, allows quick iteration without physical materials, enables simulations, and offers free/educational software access for practical learning.
+
+## Additive vs. Subtractive
+
+Manufacturing processes generally fall into two main categories: additive and subtractive. In additive manufacturing, an object is created from scratch by building it up layer-by-layer—much like constructing a house out of bricks or using a 3D printer. In contrast, subtractive manufacturing starts with a solid block of material and removes parts through cutting, drilling, or carving until the final shape is achieved, similar to a sculptor carving a statue out of stone. Understanding the difference between building up and taking away is the core foundation for learning how modern objects are made.
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=1-aRd2g5iwpAbXQvHDM9L-tKF0-BYysN1&sz=w400" alt="Profile Photo">>*source:Gemini*
+
+## Parametric Design 
+ 
+Parametric design is a method where you create shapes using code, rules, and adjustable values (parameters) instead of drawing them by hand. Think of it like using a master template with interactive sliders: if you change a single setting—like the height, curve, or number of teeth on a gear—the entire design automatically updates and resizes itself instantly. It saves time, makes tweaking designs effortless, and allows creators to generate complex, customized shapes that would be nearly impossible to build manually.
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=13vcccBVmlIOalF2xoBy8T9dov5t3Ou2r&sz=w400" alt="Profile Photo">>*source:goggle*
+
+## Pressfit 
+Press fit (also known as an interference fit) is a technique for joining two parts using only tight tolerances and friction—no glue, screws, or welding required. It works by making one component slightly larger than the hole or slot it inserts into. When the parts are pressed together with enough force, the tight squeeze creates a secure, firm bond that holds them in place. It is a popular, clean method for assembling everything from laser-cut flatpack furniture and 3D-printed designs to precision mechanical gears and bearings.
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=1stVm6ADDVwkFrl2p8qaqgkWpO6aE6VYX&sz=w400" alt="Profile Photo">>*source:goggle*
+
+## Kerf
+
+Kerf refers to the width of the material that is cut away or turned into waste during a cutting process, like the slot left behind by a saw blade, laser, or waterjet. Because the cutting tool itself has thickness (or the laser beam has a beam width), your final piece will always end up slightly smaller than the line you drew unless you account for this lost material. Factoring in kerf is especially crucial for precise projects—like press-fit joints—where offsetting your cut lines by half the kerf width ensures parts slide together perfectly instead of fitting too loosely.
+
+## STL, OBJ and GCODE
+
+In 3D design and printing, STL, OBJ, and GCODE represent the journey from a 3D model to a physical object. STL and OBJ are digital file formats that define a 3D shape's geometry using a mesh of triangles, with OBJ also capable of storing color, texture, and material data. GCODE, on the other hand, is the machine language generated by a slicer software that translates those 3D models into exact, step-by-step instructions—telling the printer's nozzle precisely where to move, how fast to go, and how much material to extrude layer by layer.
+
+
+
+
+
+
+# **MY Journey**:
+## Onshape:
+
+Onshape is a cloud-based 3D CAD platform that enables users to design and manage projects from any device with internet access. Its accessibility eliminates the need for specific hardware, allowing for editing from anywhere. The platform supports real-time collaboration, enabling multiple users to work on the same design simultaneously, which speeds up project completion. With automatic version control, users can easily track revisions, and the limitless editing capabilities support rapid prototyping and design iterations. Overall, Onshape enhances flexibility and teamwork in the design process.
+
+I chose to use Onshape for my design software because it was convenient and user-friendly. Since it was my first time using the software, I watched a YouTube tutorial to guide me through the project. I decided to start with a simple design and opted to make a mug. Following the steps from the tutorial made the design process quite manageable.
+
+## My Final Project
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=19Ovqs4X35AnBzdK3kjUyVP7xTlc5yEBv&sz=w400" alt="Profile Photo">
+
+# Process:
+1) I had to create an account on  Onshape.
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=19ME7DSLOJO0ri3AUb-6u1WhC6v3XcnYv" alt="Profile Photo">
+
+2) After signing up, we can start designing the project. You can click on the create.
+
+<img class="profile-photo" src="https://drive.google.com/thumbnail?id=1_gcr0z9U13D8zVvcP1gtkS3oxX9C0Um1" alt="Profile Photo">
