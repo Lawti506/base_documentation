@@ -20,6 +20,7 @@ The dataset used in this project is sourced from Kaggle and contains high school
 
 * **Screen_Time:** Hours spent on social media per day.
 * **Primary_App:** Main social media platform used (TikTok, Instagram, YouTube, etc.).
+* **GPA:** Grade Point Average (0.0 – 4.0).
 * **Sleep_Hours:** Average sleep duration per night.
 * **Stress_Level:** Self-reported stress scale (1 to 10).
 
@@ -77,4 +78,4 @@ if 'Primary_App' in df.columns and 'Stress_Level' in df.columns:
     plt.xticks(rotation=30)
 
 plt.tight_layout()
-plt.show()
+plt.show()      
