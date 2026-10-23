@@ -20,7 +20,6 @@ The dataset used in this project is sourced from Kaggle and contains high school
 
 * **Screen_Time:** Hours spent on social media per day.
 * **Primary_App:** Main social media platform used (TikTok, Instagram, YouTube, etc.).
-* **GPA:** Grade Point Average (0.0 – 4.0).
 * **Sleep_Hours:** Average sleep duration per night.
 * **Stress_Level:** Self-reported stress scale (1 to 10).
 
